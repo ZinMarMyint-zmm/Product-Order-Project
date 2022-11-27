@@ -149,7 +149,7 @@
 
                 $.ajax({
                     type: 'get',
-                    url: 'http://127.0.0.1:8000/admin/change/role',
+                    url: '/admin/change/role',
                     data: $data,
                     dataType: 'json',
 

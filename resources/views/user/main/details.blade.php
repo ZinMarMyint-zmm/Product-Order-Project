@@ -136,7 +136,7 @@
             //increase view count
             $.ajax({
                 type: 'get',
-                url: 'http://127.0.0.1:8000/user/ajax/increase/viewCount',
+                url: '/user/ajax/increase/viewCount',
                 data: {
                     'productId': $('#pizzaId').val()
                 },
@@ -154,7 +154,7 @@
 
                 $.ajax({
                     type: 'get',
-                    url: 'http://127.0.0.1:8000/user/ajax/addToCart',
+                    url: '/user/ajax/addToCart',
                     data: $source,
                     dataType: 'json',
                     success: function(response) {
