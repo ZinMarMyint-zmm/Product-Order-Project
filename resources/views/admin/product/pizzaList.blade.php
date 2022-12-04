@@ -12,7 +12,7 @@
                     <div class="table-data__tool">
                         <div class="table-data__tool-left">
                             <div class="overview-wrap">
-                                <h2 class="title-1">Products List</h2>
+                                {{-- <h2 class="title-1">Products List</h2> --}}
 
                             </div>
                         </div>
@@ -22,9 +22,9 @@
                                     <i class="zmdi zmdi-plus"></i>Add Pizza
                                 </button>
                             </a>
-                            <button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                            {{-- <button class="au-btn au-btn-icon au-btn--green au-btn--small">
                                 CSV download
-                            </button>
+                            </button> --}}
                         </div>
                     </div>
 
